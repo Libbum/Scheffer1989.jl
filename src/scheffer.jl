@@ -35,7 +35,7 @@ function run_ss_solver(;
     solve(prob)
 end
 
-equilibria = Set(); 
+equilibria = Set();
 for i in range(0.0, stop=100.0, length=10)
     for j in range(0.0, stop=10.0, length=10)
         for k in [0.5, 1.5, 2.5];
